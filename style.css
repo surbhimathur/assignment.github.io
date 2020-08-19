@@ -25,6 +25,10 @@ body{
 .linkedin-image-box{
     margin:0;
 }
+.linkedin-image-box img{
+    height:100%;
+}
+
 .vertical-line{
     height:20px;
     border:1px solid black;
@@ -142,7 +146,6 @@ body{
 .notification-icon{
     font-size:1.9rem;
     color:rgb(163, 146, 146);
-    width:100%;
 }
 
 .notification-icon:hover,.notification-icon:active{
@@ -358,6 +361,7 @@ section{
 .comments{
    flex-basis: 100%;
 }
+
 .user-detail,.user-post,.user-likes{
     width:95%;
     margin:0px auto;
@@ -535,6 +539,7 @@ section{
     color:#a09797;
     font-weight:400;
     vertical-align:middle;
+    margin:0;
     margin-left: 55px;
     margin-top: -23px;
 }
@@ -542,8 +547,55 @@ section{
 
 
 
-@media(max-width:767px)
+@media(min-width:320px)
 {
+    .main-header,.searchbox,.notification-box,.main-nav,.timeline,.user-display-box,.topics-row,.feed-column1,.feed-column2,.user-detail,.comment-1,.comment-2,.friends
+    {display:flex;}
+    .vertical-line{margin:0px 1%;}
+    .searchbox{margin:0 auto;padding:0px 5px;}
+   .notification-icon{font-size:1.5rem;}
+   .profile-picture-icon{width:1.5rem;height:1.5rem;}
+    .search-bar{font-size:0.8rem;}
+    .timeline{flex-direction: column;}
+    .profile-column
+     {flex-basis:100%;align-self:stretch;}
+     .keep-in-touch-column{align-self:stretch;}
+    .friends{flex-direction:row;flex-wrap: wrap;}
+    .middle-column{margin:20px 0px;}
+    .feed-column1,.feed-column2{margin-top:10px;}
+    body{font-size:14px;}
+    .profile-photo img{height:auto;}
+   .feed-user1 img{height:45px;}
+    .users img{height:45px;}
+    .feed-user1 p{ margin-left:60px;}
+    .user-post-2{height:auto;}
+    .user-post-2 img{height:auto;}  
+   .user-likes-2{margin-top:10px;}
+    .feed-column1{height:auto;}
+    .feed-column2{height:auto;}
+    .users p{margin-left: 50px;margin-top: -22px;}
+    .linkedin-image-box img{
+    height:100%;}
+    .user-post{ height:auto;}
+    
+}
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+/*{
     body{
         height:100%;
     }
@@ -567,7 +619,7 @@ section{
         display:inline-block;
         vertical-align: middle;
         width:40%;
-        margin:0 5%;
+        margin:0 10%;
         padding:0px 10px;
     }
     
@@ -642,7 +694,7 @@ section{
         padding-right:15px;
     }
     
-}
+}*/
     
 
 
@@ -656,11 +708,12 @@ section{
     .main-header,.searchbox,.notification-box,.main-nav,.timeline,.user-display-box,.topics-row,.feed-column1,.feed-column2,.user-detail,.comment-1,.comment-2,.friends
     {
     display:flex;
+        
     }
-    
+    .profile-photo img{height:auto;}
 }
     
-/
+
     
     
     
