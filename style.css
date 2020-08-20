@@ -724,6 +724,12 @@ section{
     
    .feed-column1,.feed-column2{margin-top:20px;} 
     .friends{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-wrap: nowrap;flex-wrap: nowrap;}
+    .keep-in-touch-column{
+    width:90%;
+    position:relative;
+    top:100%;
+    height:auto;
+    }
     
     .users{-ms-flex-preferred-size:100%;flex-basis:100%;padding:12px 0px; }
     .users img{ height:50px;}
